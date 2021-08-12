@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>To Do Lists</title>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <div class="titlename">
+            <center><h1>My To Do Lists</h1></center>
+        
+            <div class="inputField">
+                <input id="todoInput" maxlength="50" placeholder="Name of the Event"></input>
+                <input type="hidden" id="saveIndex">
+                <button id="addButton">Add</button>
+                <button id="saveButton" style="display: none;">Save</button>
+                <button id="deleteAll">Clear All</button>
+            </div>
+            
+            <div id="toDoList">
+                <table id="addedTaskList"></table>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>   
